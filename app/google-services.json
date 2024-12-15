@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168396463572",
+    "project_id": "project-belens",
+    "storage_bucket": "project-belens.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168396463572:android:22e5ece1190ab284fdca41",
+        "android_client_info": {
+          "package_name": "com.example.belensapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOWENFImGyiEpg84Rqg05gRFpE8FI8Lu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168396463572:android:b3de45bde86ba4d9fdca41",
+        "android_client_info": {
+          "package_name": "com.example.tes317"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOWENFImGyiEpg84Rqg05gRFpE8FI8Lu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

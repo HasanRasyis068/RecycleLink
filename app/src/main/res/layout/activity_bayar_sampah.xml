@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/inputAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Alamat" />
+
+    <Spinner
+        android:id="@+id/spKategori"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/inputBerat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Berat (kg)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputHarga"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Harga Total"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btnBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bayar" />
+</LinearLayout>
+

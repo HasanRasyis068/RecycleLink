@@ -1,0 +1,140 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Image -->
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ic_placeholder" />
+
+                <!-- Nama -->
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Nama Bank Sampah"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <!-- Alamat -->
+                <TextView
+                    android:id="@+id/tvAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Alamat"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Harga Langganan -->
+                <TextView
+                    android:id="@+id/tvHargalangganan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Harga Langganan"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Fasilitas -->
+                <TextView
+                    android:id="@+id/tvFasilitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="Fasilitas"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Harga Sampah -->
+                <TextView
+                    android:id="@+id/tvHargaSampah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Harga Sampah per kg"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvHargaPlastik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga Plastik: Rp. 5.000 per kg"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvHargaKertas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga Kertas: Rp. 3.000 per kg"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvHargaLogam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Harga Logam: Rp. 7.000 per kg"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <!-- Button Bayar Sampah -->
+                <Button
+                    android:id="@+id/btnBayarSampah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="@color/teal_200"
+                    android:text="Bayar Sampah"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnLanggananBulanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/purple_200"
+                    android:text="Langganan Bulanan"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnLanggananTahunan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/purple_200"
+                    android:text="Langganan Tahunan"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</layout>
